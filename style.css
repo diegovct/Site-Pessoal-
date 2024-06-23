@@ -1,0 +1,138 @@
+
+.line {
+    border-top: 3px solid black; 
+    margin: 10px 0; 
+
+}
+
+
+.transparent-border {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.profile {
+    display: flex;
+    align-items: flex-start; 
+}
+
+.text-container {
+    padding-left: 200px; 
+}
+.location-title,
+.location-text {
+    display: inline; 
+}
+
+.location-icon {
+    padding-left: 20px;
+}
+
+.profile h1 {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+.card-container {
+    display: flex;
+}
+
+.card {
+    margin-right: 2px;
+}
+
+.text-person1 {
+    display: block;
+    width: auto;
+    margin: 10px;
+}
+.text-person2 {
+    display: block;
+    width: flex;
+    margin: 20px;
+}
+.text-person3 {
+    display: block;
+    width: flex;
+    margin: 20px;
+}
+    .flex {
+        display: flex;
+        justify-content: flex-start; 
+        flex-wrap: wrap; 
+        max-width: 800px; 
+        
+    }
+    
+    .item {
+        flex-basis: calc(33.33% - 20px); 
+        margin-bottom: 20px; 
+        text-align: center; 
+    }
+    .item img {
+        margin-bottom: 10px; 
+    }
+
+.caixa-post {
+    margin-bottom: 20px;
+    clear: both
+    
+}
+.caixa-post img {
+    display: block;
+    float: left
+}
+.container {
+    display: flex;
+        
+}
+.location-Repertorio{
+    display: inline-block;
+    
+    
+}
+
+.card-custom a img[src="assets/img/pessoa.png"] {
+  transition: color 0.3s;
+}
+
+.card-custom a img[src="assets/img/estrela.png"] {
+  transition: color 0.3s;
+}
+
+/* style.css */
+
+body {
+    padding-top: 20px;
+}
+
+#header {
+    margin-bottom: 20px;
+}
+
+#container {
+    padding: 20px;
+}
+
+.caixa-post {
+    margin-bottom: 40px;
+}
+
+.topicos {
+    margin-top: 10px;
+}
+
+.topicos a {
+    margin-right: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        display:block
+    }
+    .header {
+        display: block;
+        text-align: center;
+        
+    }
+}

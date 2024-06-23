@@ -1,0 +1,15 @@
+{
+    "albuns": [
+      { "id": 1, "title": "Album 1", "description": "Descrição do Album 1", "coverUrl": "https://example.com/cover1.jpg", "contentUrl": "https://example.com/album1" },
+      { "id": 2, "title": "Album 2", "description": "Descrição do Album 2", "coverUrl": "https://example.com/cover2.jpg", "contentUrl": "https://example.com/album2" }
+    ],
+    "colegas": [
+      { "id": 1, "photoUrl": "https://example.com/photo1.jpg", "name": "Colega 1", "githubProfileUrl": "https://github.com/diegovct" },
+      { "id": 2, "photoUrl": "https://example.com/photo2.jpg", "name": "Colega 2", "githubProfileUrl": "https://github.com/colega2" }
+    ],
+    "repos": [
+      { "id": 1, "name": "Meu Repositório 1", "description": "Descrição do Repositório 1", "stars": 10, "forks": 5 },
+      { "id": 2, "name": "Meu Repositório 2", "description": "Descrição do Repositório 2", "stars": 20, "forks": 15 }
+    ]
+  }
+  
